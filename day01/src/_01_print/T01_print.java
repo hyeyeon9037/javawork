@@ -1,9 +1,10 @@
-package day01;
+package _01_print;
 
 public class T01_print {
 
 	public static void main(String[] args) {
 		// 주석 : 실행하지 않음 	한줄주석 :	설명이나 기타 사항들을 적음
+		// 주석 : ctrl + / , </* 주석 : ctrl + shift + />
 		/*
 		 * 응애 난 박혜연 오늘 자바 처음 시작해보징
 		 * 여러줄 주석 : 여러줄에 걸쳐 설명이나 특이사항들을 적을 때 사용
