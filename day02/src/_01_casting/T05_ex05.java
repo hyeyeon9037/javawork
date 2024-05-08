@@ -1,5 +1,7 @@
 package _01_casting;
 
+import java.util.Scanner;
+
 public class T05_ex05 {
 
 	public static void main(String[] args) {
@@ -16,8 +18,21 @@ public class T05_ex05 {
    나누기 몫 결과 : 3
    
 		 */
-
+		
+	Scanner scan = new Scanner (System.in);
+	
+	System.out.println("첫 번째 정수 : ");
+	int a = scan.nextInt();
+	System.out.println("두 번째 정수 : ");
+	int b = scan.nextInt();
+	
+	
+	System.out.println("더하기 결과 : " + (a+b));
+	System.out.println("빼기 결과 : " + (a-b));
+	System.out.println("곱하기 결과 : " + a*b);
+	System.out.println("나누기 몫 결과 : " + a/b);
+	
+	
 		
 	}
-
 }

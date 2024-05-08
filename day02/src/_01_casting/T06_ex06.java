@@ -1,5 +1,7 @@
 package _01_casting;
 
+import java.util.Scanner;
+
 public class T06_ex06 {
 
 	public static void main(String[] args) {
@@ -16,7 +18,18 @@ public class T06_ex06 {
    둘레 : 110.4
 		 */
 
+		Scanner scan = new Scanner(System.in);
 		
+		System.out.println("가로 값 : ");
+		double a = scan.nextDouble();
+		System.out.println("세로 값 : ");
+		double b = scan.nextDouble();
+		
+		double ab = a*b;
+		double c = (a+b)*2;
+				
+		System.out.println("사각형의 면적 : " + ab	);
+		System.out.println("사각형의 둘레 : " + c );
 		
 	}
 

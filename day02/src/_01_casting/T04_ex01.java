@@ -7,7 +7,7 @@ public class T04_ex01 {
 	public static void main(String[] args) {
 		
 		
-		// 문제1) 문자 하나를 입력받아 그 문자의 유니코드를 출력하기
+		// 문제1) 문자 하나를 입력받아 그 문자의 유니코드를 출력하기 (정답!)
 	
 		Scanner scan = new Scanner(System.in);
 		

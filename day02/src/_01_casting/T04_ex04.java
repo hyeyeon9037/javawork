@@ -18,16 +18,15 @@ public class T04_ex04 {
 		
 		System.out.println("이름을 입력하세요. : ");
 		String name = scan.next();
-		System.out.println("이름 : " + name );
 
 		
 		System.out.println("성별을 입력하세요(남/여) : ");
 		char gender = scan.next().charAt(0);
-		System.out.println("성별 : " + gender);
 		
 		System.out.println("나이를 입력하세요. : ");
 		int age = scan.nextInt();
-		System.out.println("성별 : " + age);
+		
+		
 		
 		
 		

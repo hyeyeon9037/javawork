@@ -1,5 +1,7 @@
 package _01_casting;
 
+import java.util.Scanner;
+
 public class T07_ex07 {
 
 	public static void main(String[] args) {
@@ -15,6 +17,18 @@ public class T07_ex07 {
    세 번째 문자 : p
    
 		 */
+
+		// 안보고 풀어보기 이건 좀 어렵당.
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.print("문자열을 입력하세요 : ");
+		String a = scan.next();
+		
+		System.out.println(a.charAt(0));
+		System.out.println(a.charAt(1));
+		System.out.println(a.charAt(2));
+		
+		
 	}
 
 }
