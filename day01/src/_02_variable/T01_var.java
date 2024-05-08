@@ -14,7 +14,7 @@ public class T01_var {
 		// num2에는 10이라는 숫자가 들어가있고, num1은 아무것도 들어가지 않은 것
 		
 		num1 = 11;
-		// num1 에 11이라는 숫자를 넣은 것
+		// int가 없으면 기존에 있는 num1을 찾아 11을 넣으라는 것
 		
 		System.out.println(num1);
 		System.out.println(num2);

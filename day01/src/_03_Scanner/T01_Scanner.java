@@ -6,7 +6,7 @@ public class T01_Scanner {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in); // 문법은 이렇게 써야함 (외워)
-		
+		//객체생성
 	
 		System.out.print("이름을 입력하세요 : ");
 		String name = scan.next(); // 문자열의 단어
