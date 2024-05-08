@@ -29,8 +29,10 @@ public class T04_ex03 {
 	    System.out.println(iNum1/iNum2);
 	    // 3.1 문제 맞음
 	    
-	    
-	    // 3.2 문제 틀림
+	    double dNum = 2.5;
+	    double A = iNum2*dNum;
+	    System.out.println("iNum2*dNum : " + A );
+	    // 3.2 문제 틀림 ( 문제이해도 필요 "변수에 넣고 출력하기는 sysout 에 넣으라는 소리다!" )
 	    
 	    double a = iNum1;
 	    System.out.println(a);
@@ -47,16 +49,19 @@ public class T04_ex03 {
 	
 	    double so = (double)iNum1/fNum;
 	    System.out.println(so);
-	    // 3.6 문제
+	    // 3.6 문제 맞음
 	    
 	    
-	    
-	    // 3.7 문제 틀림
+	    char ch = 'K'; 
+	    int B = ch;
+	    System.out.println(B);
+	    // 3.7 문제 틀림 ( 유니코드에 대한 이해도가 부족한것 같음 다시해보자 )
 	    
 	    char ch1 = (char)(ch+1);
 	    System.out.println(ch1);
 	    // 3.8 문제 맞음
 	    
+	    // 3.2~3.4 안보고 못풀겠음 다시해보자.
 	    
 	}
 
