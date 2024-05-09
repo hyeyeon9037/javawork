@@ -24,7 +24,7 @@ public class T01_StringClass {
 		// 다른 이유 객체 생성을 따로 따로 했기때문에 다름 (new)
 		
 		System.out.println("값이 같은가? " + str3.equals(str4));
-		// equals 주소가 다른 것을 비교할수 있는 메소드
+		// equals 주소가 다른 것을 비교할수 있는 메소드 (값을 비교하는 것), String을 할때에 equals를 많이씀
 		
 
 	}
