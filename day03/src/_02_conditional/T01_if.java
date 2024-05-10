@@ -15,9 +15,9 @@ public class T01_if {
 		
 		int num1 = 100;
 		if(num1 != 100); // 여기서 ; 붙이면 안댐 
-		// if문의 실행할 코드가 한줄일때는 중괄호 {}를 안넣어도 되고 넣어도 된다.
 			System.out.println("100점이 아닙니다.");
-			
+			// if문의 실행할 코드가 한줄일때는 중괄호 {}를 안넣어도 되고 넣어도 된다.
+		
 			if (num1 == 100) {
 				System.out.println("100점 입니다.");
 				System.out.println("안녕");
