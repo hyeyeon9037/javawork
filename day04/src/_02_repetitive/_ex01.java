@@ -12,8 +12,8 @@ public class _ex01 {
 			}
 		}
 		System.out.println(" 5의 배수의 합 : " + sum );
-	}
 
 	
-	
+	}
+
 }
