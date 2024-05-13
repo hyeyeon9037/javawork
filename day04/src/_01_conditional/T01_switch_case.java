@@ -124,8 +124,6 @@ public class T01_switch_case {
 			
 		}
 
-		
-		
 
 	}
 

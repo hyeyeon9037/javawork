@@ -45,7 +45,7 @@ public class T01_assignment {
 		// 10/4 의 나머지값
 		
 		int num = 300_000_000; // 300,000,000 와 같은 역할 _은 사람이 보기 편하도록 하는 거
-		System.out.println(num3);
+		System.out.println(num1);
 		
 	}
 
