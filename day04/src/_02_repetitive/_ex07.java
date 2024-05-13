@@ -21,3 +21,16 @@ public class _ex07 {
 	}
 
 }
+
+/*
+
+	      int count = 0;
+	      int com =0;
+	      do {
+	         com =(int)(Math.random()*6) + 1;
+	         count ++;
+	         System.out.println("주사위 값 : "+ com);
+	      }while(com != 6);
+	      System.out.println("총 주사위 굴린 횟수 :" + count);
+	            
+*/
