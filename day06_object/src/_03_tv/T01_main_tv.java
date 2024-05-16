@@ -7,6 +7,7 @@ public class T01_main_tv {
 		// Scanner sc = new Scanner(System.in); // sc : 주소, System.in :  매개변수 
 
 		
+		//객체 생성
 		T01_api_tv tv1 = new T01_api_tv();
 		
 		System.out.println(" 회사명 : " + tv1.company);

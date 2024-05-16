@@ -4,6 +4,7 @@ public class T01_main_car {
 
 	public static void main(String[] args) {
 
+		//객체 생성
 		T01_api_car car1 = new T01_api_car();
 		
 		System.out.println(" 회사 명 : " + car1.company);
