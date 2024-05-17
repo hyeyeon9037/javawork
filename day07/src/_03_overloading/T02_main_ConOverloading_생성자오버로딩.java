@@ -32,7 +32,7 @@ class Aaa{
 	
 	Aaa(int num, String name) {
 		this.num = num;
-		this.dou = dou;
+		dou = dou;
 		this.name = name;
 		System.out.println("매개변수가 2개인 생성자(int, String)");
 	}
@@ -48,6 +48,7 @@ class Aaa{
 	/* 가변인자 (...) : 들어올 인자의 갯수를 모를때 씀
 	                  가변인자를 넣어줬을땐 뒤에다가 넣어줘야함
 					  같은 자료형 일때에는 오버로딩을를 잘 쓰지않는다.
+					  가변인자는 0개이상 넣는 것
 					  
 	인자는 변수명이라고 생각하쟈
 	*/ 
@@ -56,7 +57,7 @@ class Aaa{
 		System.out.println("인자가 0개 이상");
 	}
 	
-	void method(String name, String... str) { // 인자는 "1개 이상" 이라는 뜻
+	void method(String name, String... str) { // 인자는 "1개 이상" 이라는 뜻 why? String name 은 무조건 1개이상 넣어야하고 String...str 은 안넣어도 되기때문에.
 		System.out.println("인자가 반드시 1개 이상");
 	}
 	
@@ -70,7 +71,7 @@ class Aaa{
 	
 }
 
-public class T02_main_ConOverloading {
+public class T02_main_ConOverloading_생성자오버로딩 {
 
 	public static void main(String[] args) {
 		
