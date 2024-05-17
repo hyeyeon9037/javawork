@@ -6,7 +6,7 @@ public class T01_api_car {
 	String model = "SM7";
 	String color = "흰색";
 	int speed = 0;
-	boolean power;
+	boolean power; //기본 false를 뜻함
 	
 	void power() {
 		power = !power;

@@ -1,4 +1,4 @@
-package EX;
+package _06_EX;
 
 class Product {
 	String serialNo;
@@ -12,7 +12,7 @@ class Product {
 }
 
 
-public class _01 {
+public class _예시01 {
 
 	public static void main(String[] args) {
 		
