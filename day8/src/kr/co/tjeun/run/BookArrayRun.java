@@ -33,5 +33,22 @@ public class BookArrayRun {
 		for (int i = 0; i < 3; i++) {
 			System.out.println(books[i].information());
 		}
+		
+		/* 향상된 for문 쓴다면?
+		 * for( Book book : books ) {
+		 *  Ststem.out.println(book.information());
+		 */
+		
+		//도서 제목으로 검색하는 서비스
+		System.out.println(" 출판사 입력 : ");
+		String search = sc.next();
+		
+		for(int i=0; i<books.length; i++) {
+			if(search.equals(books[i].getTitle()))
+				System.out.println(books[i].information());
+			
+		}
+		
+		
 	}
 }

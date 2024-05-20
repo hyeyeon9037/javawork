@@ -23,7 +23,7 @@ class Aaa{
 	}
 	
 	Aaa(int num, double dou) {
-		this.nu                                                                                     m = num;
+		this.num = num;
 		this.dou = dou;
 		this.name = "박혜연";
 		System.out.println("매개변수가 2개인 생성자(int, double)");

@@ -8,13 +8,15 @@ public class T01_api_static {
 	String nameIn = "어턴스";
 	
 	
-	//정적 필드
+	//정적 필드 (클래스 변수)
 	static int numSt = 10;
 	static String nameSt = "김정적";
 	
 	//인스턴스 메소드
 	void me1() { //인스턴스 메소드를 호출한다는 것은 이미 "객체가 생성"되어 있다는 소리다.
 		 		// 인스턴스 변수, 메소드, 클래스 변수, 메소 모두 호출 가능
+		       // 객체가 생성
+		
 		System.out.println("인스턴스 메소드 me1()");
 		System.out.println(numIn);
 
