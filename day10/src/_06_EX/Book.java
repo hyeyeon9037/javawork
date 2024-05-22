@@ -5,7 +5,7 @@ public class Book {
 	String title;
 	String author;
 	String publisher;
-
+	//쌤이해주신 void 나 private 를 언제 써야할지를 잘 모르겠음
 	Book(){
 		
 	}
@@ -27,7 +27,7 @@ public class Book {
 		String getPublisher() {
 			return publisher;
 		}
-		
+
 		@Override
 		
 		public String toString() {

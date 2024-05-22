@@ -19,7 +19,7 @@ public class BookRun {
         String searchTitle = "토지"; // 검색하려는 책 이름
         Book foundBook = libraryController.searchBook(searchTitle);
         // Book 에 foundBook 생성 
-        if (foundBook != null) {  // null값이 아니라면
+        if (foundBook != null) {  // null값이 아니라면 
             System.out.println("\n검색한 책 정보:");
             System.out.println(foundBook);
         } else {

@@ -33,5 +33,6 @@ public class Tv implements RemoteControl {
 		System.out.println("현재 음량 : " + this.volume); //volume만 하면 지역변수임
 		
 	}
-
+	
+	
 }
