@@ -13,7 +13,7 @@ public class T06_classCast {
 
 	public static void main(String[] args) {
 
-		/*	방법1	
+		//	방법1	
 		  try {
 				Animal ani = new Animal();
 				Dog dog = new Dog();
@@ -25,43 +25,21 @@ public class T06_classCast {
 			dog = (Dog)aniDog; // dog로 강제 형변환 하시오라는 뜻
 			dog = (Dog)ani; // 오류 뜸 > 오류뜨는건 try catch 문으로 ㄱㄱ
 				
-				// 위에 dog = (Dog)ani;를 안 쓰고 싶으면 try catch문 안쓰고 if else로 써도 가능
+			/*	// 위에 dog = (Dog)ani;를 안 쓰고 싶으면 try catch문 안쓰고 if else로 써도 가능
 			 ------------------------------------------
 				if(ani instanceof Dog) {
 					dog = (Dog)ani;
 				}else {
 					System.out.println("변경 불가");
 				}
-			 ------------------------------------------
+			 ------------------------------------------*/
 			
 		} catch(ClassCastException e) {
 			System.out.println("부모타입을 자식의 타입으로 형 변환 할 수 없음");
 			}
-				*/
+	}
+}
 		
-		
-				// 방법 2 static 붙을 때
-				Dog dog = new Dog(); 
-				change(dog); 
-				
-			public static Dog change(Animal animal) { 
-				Dog dog = null;
-				if(animal instanceof Dog) {
-				 dog = (Dog)animal;
-				}else {
-					System.out.println("변경 불가");
-				}
-				return dog;
-				
-				
-				Dog dog = new Dog(); 
-				change(dog); 
-				if ( d == null) {
-					
-				}else {
-					
-				}
-	
 		
 	/* 방법 2-1 ) static 안붙었을 때   
 
@@ -93,9 +71,26 @@ public class T06_classCast {
 	
 	
 	*/
-
-
-	} 
+		
+		/*
+		// Dog dog = new Dog();				// 변환가능
+		Animal animal dog = new Animal();  //변환불가
+		if((change(dog)) == null) {
+			System.out.println("변환불가");
+		} else {
+			dog = change(dog);
+		}
+		*/
 	
-}
+	/*public static Dog change(Animal animal) {
+		Dog dog = null;
+		if(animal instanceof Dog)
+			dog = (Dog)animal;
+	
+		return dog;
+	}*/
+
+
+	
+	
 
