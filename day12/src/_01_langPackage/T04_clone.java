@@ -1,6 +1,6 @@
 /*package _01_langPackage;
 
-class Point implements Cloneable {
+class Point implements Cloneable { //  implements Cloneable 필수
 	int x;
 	int y;
 	
@@ -19,7 +19,7 @@ class Point implements Cloneable {
 	}
 	
 	@Override
-	public Object clone() {
+	public Object clone() { // clone 필수
 		Object obj = null;
 		try {
 			obj = super.clone();
