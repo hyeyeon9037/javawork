@@ -2,7 +2,7 @@ package _03_calendar_date;
 
 import java.util.Calendar;
 
-public class T03_calender_연산 {
+public class T03_calendar_연산 {
 
 	public static void main(String[] args) {
 		Calendar date1 = Calendar.getInstance();

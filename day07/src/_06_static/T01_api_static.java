@@ -14,7 +14,7 @@ public class T01_api_static {
 	
 	// 정적필드 (속성)
 	
-	static int sNum = 20;
+	static int sNum = 20; // stsatic이 있으면 같이쓰임
 	static String sName = "박혜연";
 	
 	

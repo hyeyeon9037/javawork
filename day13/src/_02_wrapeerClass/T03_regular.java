@@ -13,8 +13,8 @@ public class T03_regular {
 			 System.out.println("정규식과 일치합니다");
 		 else
 			 System.out.println("정규식과 일치하지 않습니다.");
-		 
-		 //이메일 체크
+		 //      ^는 ~부터 시작하는 
+		 //이메일 체크  a~z,A~z+ 0~9   \\w 숫자 아니면 문자 중에서 한글자 이상이라는 뜻  , (\\.\\w+)도 같은 뜻
 		 regExp = "^[a-zA-Z]+[0-9]+@\\w+.\\w+(\\.\\w+)";
 		 data ="angle@naver.co.kr";
 		 result = Pattern.matches(regExp, data);
@@ -22,9 +22,6 @@ public class T03_regular {
 			 System.out.println("정규식과 일치합니다");
 		 else
 			 System.out.println("정규식과 일치하지 않습니다.");
-		 
-		 
-		 
 		 
 		 
 	}
