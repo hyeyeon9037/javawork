@@ -41,15 +41,14 @@ public class T04_date {
 		
 		String str = "20240507";
 		SimpleDateFormat sdf8 = new SimpleDateFormat("yyyyMMdd");
+		SimpleDateFormat sdf9 = new SimpleDateFormat("yyyy-MM-dd");
 		
+		Date strNow;
 		try {
-			Date strNow = sdf8.parse(str);
+			strNow = sdf8.parse(str);
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
-		System.out.println(sdf8.format(str));
-		
-		
 		
 	}
 
