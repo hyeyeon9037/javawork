@@ -6,8 +6,8 @@ public class T01_GenericsRun {
 		
 		Product<Tv, String> p1 = new Product<>();
 		
-		p1.setKind(new Tv());
-		p1.setModel("스마트 TV");
+		p1.setKind(new Tv());  // K 타입
+		p1.setModel("스마트 TV"); //  String만 받을 수 있음
 		
 		Tv kind = p1.getKind();
 		String model = p1.getModel();

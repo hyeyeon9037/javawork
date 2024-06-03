@@ -34,7 +34,7 @@ public class T01_EnumWeek {
 				*/
 		
 		// Month일때
-	
+		// 달 0~11
 		Month today = null;
 		
 		Calendar cal = Calendar.getInstance();
