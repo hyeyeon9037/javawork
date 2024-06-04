@@ -5,6 +5,9 @@ import java.util.function.*;
 public class T01_supplier {
 
 	public static void main(String[] args) {
+		// Supplier 매개변수가 없고, 리턴 값이 있는 인터페이스
+		
+		
 		// Supplier<> sup = () -> {return "aaaa"; }; 
 		// 생략한다면? 
 		Supplier<String> sup = () -> "aaaa";

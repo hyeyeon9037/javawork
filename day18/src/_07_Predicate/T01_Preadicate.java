@@ -6,6 +6,8 @@ import java.util.function.Predicate;
 
 
 public class T01_Preadicate {
+	// Predicate : 변환값이 boolean인 인터페이스
+	
 	//클래스 변수
 	static List<Student> list = Arrays.asList(
 			new Student("홍길동", "남", 100),

@@ -6,8 +6,10 @@ public class T01_consumer {
 
 	public static void main(String[] args) {
 		/*
-		 * Consumer의 원형 : 미리 구현 되어 있음
-		 
+		 * Consumer의 interface : 미리 구현 되어 있음
+		 				 		: 매개변수만 있고, 반환형이 없는 인터페이스 
+		 				 
+		 → 원형
 		 @FuctionInterface
 		 public interfae Consumer<T> {
 		 void accpet(T t);
@@ -17,7 +19,7 @@ public class T01_consumer {
 		 */
 		// Consumer interface : 리턴 값을 얻음
 		// 1. 매개변수 1개 모든 객체
-		Consumer<String> consumer = x -> System.out.println(x);
+		Consumer<String> consumer = x -> System.out.println(x); // 여기서 x는 변수명
 			consumer.accept("java");
 			
 		// 2. 매개변수 2개 : 앞에 bi라는 접두어를 붙인다
