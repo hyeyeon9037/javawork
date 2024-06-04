@@ -6,7 +6,7 @@ public class T01_consumer {
 
 	public static void main(String[] args) {
 		/*
-		 * Consumer의 원형
+		 * Consumer의 원형 : 미리 구현 되어 있음
 		 
 		 @FuctionInterface
 		 public interfae Consumer<T> {
