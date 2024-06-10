@@ -14,9 +14,12 @@ abstract public class Pet {
 		this.feature = feature;
 	}
 	
+	
 	//추상 메서드 : 메서드 앞에 abstract 키워드 사용
 	//			 선언부만 있고 실행부가 없는 메서드
 	//			 상속받는 곳에서 "반드시" 구현해야함.
+	
+	
 	abstract void sound();
 	abstract void info();
 	
