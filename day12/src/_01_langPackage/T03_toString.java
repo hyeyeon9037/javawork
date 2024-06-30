@@ -3,14 +3,14 @@ package _01_langPackage;
 class Card {
 	String kind;
 	int num;
-	Card(){
+	Card() {
 		this("HART", 7);
 	}
 	Card(String kind, int num) {
 		this.num = num;
 		this.kind = kind;
-		
 	}
+	
 	/*
 	//toString 오버라이딩
 	@Override
@@ -28,8 +28,8 @@ public class T03_toString {
 		Card card3 = null;
 		
 		
-		//객체를 넣은 변수를 출력하면 toStrinh()메소드가 호출된다.
-		// Object클래스의 toString()은 패키지명.클래스명 @해시코드(16진수로) 출력됨.
+		// 객체를 넣은 변수를 출력하면 toStrinh()메소드가 호출된다.
+		// Object 클래스의 toString()은 패키지명.클래스명 @해시코드(16진수로) 출력됨.
 		System.out.println(card1);
 		System.out.println(card1.toString());
 		

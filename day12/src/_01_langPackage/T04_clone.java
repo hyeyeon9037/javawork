@@ -27,7 +27,7 @@ class Point implements Cloneable { //  implements Cloneable 필수
 			
 			e.printStackTrace();
 		}
-		return obj;
+		return obj; 
 	}
 	
 }

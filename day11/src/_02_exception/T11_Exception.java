@@ -20,9 +20,8 @@ public class T11_Exception {
 				System.out.println(i+1 + "번째 정수 입력 : ");
 				num[i] = sc.nextInt();
 				sum += num[i];
-				
-				
 			}
+			
 			num[3] = 5;
 			System.out.println("합계" + sum);
 		

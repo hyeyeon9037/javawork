@@ -9,6 +9,7 @@ public class T12_throw {
 		
 		try {
 			Exception e = new Exception("강제로 예외 발생 시킴");
+			//exception 객체 선언
 			throw e;
 		} catch(Exception e) {
 			System.out.println(e.getMessage());
