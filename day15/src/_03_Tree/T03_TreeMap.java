@@ -1,6 +1,8 @@
 package _03_Tree;
 
-import java.util.*;
+import java.util.Map.Entry;
+import java.util.NavigableMap;
+import java.util.TreeMap;
 
 public class T03_TreeMap {
 
@@ -12,17 +14,14 @@ public class T03_TreeMap {
 		treeMap.put("grape", 5000);
 		treeMap.put("mango", 1000);
 		treeMap.put("orange", 500);
+		treeMap.put("peach", 1000);
+		treeMap.put("watermelon", 10000);
 		
 		System.out.println("[c~n 사이의 단어 검색]");
-		treeMap.subMap("c", true,"n", true);
-		NavigableMap<String, Integer> ravigaMap = treeMap.subMap("c", true, "n", true);
-		for(Entry<String, Integer> entry : raviMap.entrySet()) {
+		NavigableMap<String, Integer> raviMap = treeMap.subMap("c", true, "n", true);
+		// System.out.println(raviMap);
+		for(Entry<String, Integer> entry  : raviMap.entrySet()) {
 			System.out.println(entry.getKey() + " - " + entry.getValue());
-		}
-				
-	
-	
-	
+		}	
 	}
-
 }
