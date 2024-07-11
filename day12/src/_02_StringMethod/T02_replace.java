@@ -16,7 +16,7 @@ public class T02_replace {
 		
 		str = "javaprogram jeava awsjava dajva";
 		
-		newStr = str.replace("java", "자바"); // java 에 중간에 jeave 거나 jva 인것들은 보지 치환하지못함.
+		newStr = str.replace("java", "자바"); // java 에 중간에 jeave 거나 jva 인것들은 치환하지못함.
 		System.out.println(newStr);
 		
 	

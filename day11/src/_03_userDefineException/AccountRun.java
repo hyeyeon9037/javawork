@@ -17,8 +17,9 @@ public class AccountRun {
 		bank.deposit(1000);
 		try {
 			bank.witdraw(4000);
-		} catch (UserException e) { // 예외가 발생할 수 있으니 조심하시오..??
+		} catch (UserException e) { 
 			System.out.println(e.getMessage());
+			System.out.println(e);
 		}
 		
 		

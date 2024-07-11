@@ -23,8 +23,6 @@ public class T01_api_tv {
 		this.company = company;
 		model = modelName; // 이름이 다를땐 this 안ㅆㅓ도 돼
 		this.channel = channel;
-		
-		
 	}
 	
 		

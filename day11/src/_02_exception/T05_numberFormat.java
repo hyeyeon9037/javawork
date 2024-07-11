@@ -11,6 +11,7 @@ public class T05_numberFormat {
 				
 				for(int i=0; i<str.length; i++) {
 					int num = Integer.parseInt(str[0]); //Integer.parseInt : 인트형으로 바꿔주겠다 라는 뜻 <문자가 있기 대문에 try , catch문을 써줘야함>
+					****짱중요**** Integer 와 int는 다른 거임! Integer는 인트 객체라는 소리이고 int는 자료형 인트!!
 					System.out.println(num);
 				}
 				

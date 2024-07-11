@@ -1,10 +1,9 @@
 package _01_langPackage;
 
 class Value {
-	int value;
+	int value; //인스턴스 변수
 	Value(int value) { // value 타입
 		this.value = value;
-		
 	}
 	
 	@Override

@@ -11,6 +11,7 @@ public class T07_inputMismatch {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("정수 3개 입력");
 		int sum = 0;
+		
 		for(int i = 1; i<=3; i++) {
 			System.out.println(i + "번째 정수 입력 : ");
 			

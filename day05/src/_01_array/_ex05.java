@@ -36,7 +36,7 @@ public class _ex05 {
 		}
 		System.out.println(str + "에 "+ search + "가 존재하는 위치 (인덱스) : " + count );
 		System.out.println(search + "의 개수 : " + count);
-		
+		 
 		
 		
 		
